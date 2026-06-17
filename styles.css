@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Google Fonts, cores e variaveis principais do projeto */
 :root {
   --pink: #ff0b5f;
   --page-bg: #181818;
@@ -8,8 +11,11 @@
   --muted: #c7c7c7;
   --line: #969696;
   --border: #696969;
+  --font-space: "Orbitron", sans-serif;
+  --font-body: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+/* Reset simples para manter o layout previsivel */
 * {
   box-sizing: border-box;
 }
@@ -23,7 +29,7 @@ body {
   margin: 0;
   color: var(--text);
   background: #252525;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
 }
 
 a {
@@ -35,6 +41,7 @@ input {
   font: inherit;
 }
 
+/* Estrutura geral da pagina */
 .app-shell {
   display: flex;
   flex-direction: column;
@@ -43,6 +50,7 @@ input {
   border: 6px solid #626262;
 }
 
+/* Cabecalho superior com logo e botao de entrada */
 .topbar {
   display: flex;
   align-items: center;
@@ -52,6 +60,7 @@ input {
   background: var(--header-bg);
 }
 
+/* Configuracao das imagens de logo */
 .logo {
   display: inline-block;
   overflow: hidden;
@@ -79,6 +88,7 @@ input {
   max-width: 100%;
 }
 
+/* Area do link de login */
 .login-area {
   display: flex;
   align-items: center;
@@ -104,6 +114,7 @@ input {
   background: var(--pink);
 }
 
+/* Conteudo principal: area institucional + formulario */
 .page-content {
   flex: 1;
   display: grid;
@@ -115,11 +126,13 @@ input {
   background: var(--page-bg);
 }
 
+/* Faixa cinza inferior */
 .bottom-bar {
   min-height: 74px;
   background: var(--header-bg);
 }
 
+/* Area institucional da esquerda */
 .brand-panel {
   padding-top: 80px;
 }
@@ -141,6 +154,7 @@ input {
   max-width: 324px;
 }
 
+/* Itens de beneficios do banco */
 .benefit-item {
   display: flex;
   align-items: center;
@@ -184,6 +198,7 @@ input {
   line-height: 1.45;
 }
 
+/* Card principal do formulario */
 .signup-card {
   width: 100%;
   max-width: 702px;
@@ -195,6 +210,7 @@ input {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
+/* Titulo e icone do cadastro */
 .signup-heading {
   display: flex;
   align-items: center;
@@ -249,6 +265,7 @@ input {
   background: var(--pink);
 }
 
+/* Titulos e grade dos campos do formulario */
 .form-section-title {
   margin: 0 0 24px;
   color: var(--pink);
@@ -291,6 +308,7 @@ input {
   box-shadow: 0 0 0 2px rgba(255, 11, 95, 0.22);
 }
 
+/* Regras de senha exibidas abaixo dos campos */
 .rules-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -323,6 +341,7 @@ input {
   border-radius: 999px;
 }
 
+/* Linha de aceite dos termos */
 .terms-row {
   display: flex;
   align-items: center;
@@ -385,6 +404,7 @@ input {
   text-decoration: underline;
 }
 
+/* Botoes finais do formulario */
 .action-row {
   display: flex;
   align-items: center;
@@ -421,6 +441,7 @@ input {
   filter: brightness(1.08);
 }
 
+/* Responsividade para telas intermediarias */
 @media (max-width: 1060px) {
   .page-content {
     grid-template-columns: minmax(0, 760px);
@@ -456,6 +477,7 @@ input {
   }
 }
 
+/* Responsividade para celulares */
 @media (max-width: 720px) {
   .app-shell {
     border-width: 0;
@@ -572,6 +594,7 @@ input {
   }
 }
 
+/* Ajustes extras para celulares pequenos */
 @media (max-width: 390px) {
   .logo-small {
     width: 205px;

@@ -12,6 +12,7 @@
   </head>
   <body>
     <div class="app-shell min-h-screen flex flex-col text-white">
+      <!-- Area do cabecalho com logo e acesso para login -->
       <header class="topbar flex items-center justify-between">
         <a href="#" class="logo logo-small" aria-label="FIAP Bank">
           <img src="./images/fiap-bank-logo.png" alt="FIAP Bank" />
@@ -23,7 +24,9 @@
         </div>
       </header>
 
+      <!-- Conteudo principal da tela -->
       <main class="page-content flex-1">
+        <!-- Area institucional com chamada do banco e beneficios -->
         <section class="brand-panel" aria-label="Beneficios do FIAP Bank">
           <a href="#" class="logo logo-large" aria-label="FIAP Bank">
             <img src="./images/fiap-bank-logo.png" alt="FIAP Bank" />
@@ -35,6 +38,7 @@
 
           <div class="pink-mark"></div>
 
+          <!-- Lista de diferenciais do FIAP Bank -->
           <div class="benefit-list">
             <article class="benefit-item flex items-center">
               <div class="benefit-icon" aria-hidden="true">
@@ -77,7 +81,9 @@
           </div>
         </section>
 
+        <!-- Area do formulario de cadastro -->
         <section class="signup-card" aria-labelledby="signup-title">
+          <!-- Titulo do formulario -->
           <div class="signup-heading flex items-center">
             <div class="avatar-icon" aria-hidden="true">
               <svg viewBox="0 0 64 64" fill="none">
@@ -95,6 +101,7 @@
           <div class="section-line pink-line"></div>
 
           <form class="signup-form" action="#" method="post">
+            <!-- Area de dados pessoais do cadastro -->
             <h2 class="form-section-title">Dados Pessoais</h2>
 
             <div class="form-grid">
@@ -131,6 +138,7 @@
 
             <div class="section-line"></div>
 
+            <!-- Area de dados de acesso da conta -->
             <h2 class="form-section-title">Dados Acesso</h2>
 
             <div class="form-grid">
@@ -145,6 +153,7 @@
               </label>
             </div>
 
+            <!-- Regras para criacao de senha -->
             <div class="rules-grid">
               <ul>
                 <li>M&iacute;nimo de 8 caracteres</li>
@@ -157,6 +166,7 @@
               </ul>
             </div>
 
+            <!-- Aceite dos termos e politica de privacidade -->
             <label class="terms-row flex items-center">
               <input type="checkbox" />
               <span class="custom-checkbox" aria-hidden="true"></span>
@@ -168,6 +178,7 @@
 
             <div class="section-line"></div>
 
+            <!-- Botoes de acao do formulario -->
             <div class="action-row flex items-center justify-end">
               <button class="btn btn-secondary" type="button">Cancelar</button>
               <button class="btn btn-primary" type="submit">Cadastrar</button>
@@ -176,6 +187,7 @@
         </section>
       </main>
 
+      <!-- Faixa inferior da tela -->
       <footer class="bottom-bar" aria-hidden="true"></footer>
     </div>
   </body>
