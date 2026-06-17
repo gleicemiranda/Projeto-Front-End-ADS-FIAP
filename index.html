@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIAP Bank - Cadastro</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell min-h-screen flex flex-col text-white">
+      <header class="topbar flex items-center justify-between">
+        <a href="#" class="logo logo-small" aria-label="FIAP Bank">
+          <img src="./images/fiap-bank-logo.png" alt="FIAP Bank" />
+        </a>
+
+        <div class="login-area flex items-center">
+          <span>J&aacute; tem uma conta?</span>
+          <a href="#" class="login-button">Entrar</a>
+        </div>
+      </header>
+
+      <main class="page-content flex-1">
+        <section class="brand-panel" aria-label="Beneficios do FIAP Bank">
+          <a href="#" class="logo logo-large" aria-label="FIAP Bank">
+            <img src="./images/fiap-bank-logo.png" alt="FIAP Bank" />
+          </a>
+          <p class="brand-copy">
+            A sua solu&ccedil;&atilde;o financeira em<br />
+            um s&oacute; lugar!
+          </p>
+
+          <div class="pink-mark"></div>
+
+          <div class="benefit-list">
+            <article class="benefit-item flex items-center">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3.5 19 6.4v5.1c0 4.6-2.9 7.5-7 9-4.1-1.5-7-4.4-7-9V6.4l7-2.9Z" />
+                  <path d="m8.8 12.2 2 2 4.4-5" />
+                </svg>
+              </div>
+              <div>
+                <h2>Seguro</h2>
+                <p>Seus dados protegidos com tecnologia de ponta.</p>
+              </div>
+            </article>
+
+            <article class="benefit-item flex items-center">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M13 2 5 13h6l-1 9 9-13h-6l1-7Z" />
+                </svg>
+              </div>
+              <div>
+                <h2>R&aacute;pido</h2>
+                <p>Cadastro simples e aprova&ccedil;&atilde;o imediata.</p>
+              </div>
+            </article>
+
+            <article class="benefit-item flex items-center">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M8 2.8h8a1.8 1.8 0 0 1 1.8 1.8v14.8a1.8 1.8 0 0 1-1.8 1.8H8a1.8 1.8 0 0 1-1.8-1.8V4.6A1.8 1.8 0 0 1 8 2.8Z" />
+                  <path d="M10 5h4" />
+                  <path d="M11.2 18.4h1.6" />
+                </svg>
+              </div>
+              <div>
+                <h2>Completo</h2>
+                <p>Todas as ferramentas que voc&ecirc; precisa em um s&oacute; lugar.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="signup-card" aria-labelledby="signup-title">
+          <div class="signup-heading flex items-center">
+            <div class="avatar-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="32" r="29" />
+                <circle cx="32" cy="22" r="11" />
+                <path d="M12 55c4-12 12-18 20-18s16 6 20 18" />
+              </svg>
+            </div>
+            <div>
+              <h1 id="signup-title">Cadastro de novo usu&aacute;rio</h1>
+              <p>Preencha os dados abaixo para criar a sua conta</p>
+            </div>
+          </div>
+
+          <div class="section-line pink-line"></div>
+
+          <form class="signup-form" action="#" method="post">
+            <h2 class="form-section-title">Dados Pessoais</h2>
+
+            <div class="form-grid">
+              <label>
+                <span>Nome Completo</span>
+                <input type="text" placeholder="Digite o seu nome completo" />
+              </label>
+
+              <label>
+                <span>CPF</span>
+                <input type="text" placeholder="000.000.000-00" />
+              </label>
+
+              <label>
+                <span>Data de nascimento</span>
+                <input type="text" placeholder="dd/mm/aaaa" />
+              </label>
+
+              <label>
+                <span>E-mail</span>
+                <input type="email" placeholder="seu@email.com" />
+              </label>
+
+              <label>
+                <span>Celular</span>
+                <input type="tel" placeholder="(11) 99999-9999" />
+              </label>
+
+              <label>
+                <span>N&uacute;mero do documento</span>
+                <input type="text" placeholder="RG ou CNH" />
+              </label>
+            </div>
+
+            <div class="section-line"></div>
+
+            <h2 class="form-section-title">Dados Acesso</h2>
+
+            <div class="form-grid">
+              <label>
+                <span>Senha</span>
+                <input type="password" placeholder="M&iacute;nimo 8 caracteres" />
+              </label>
+
+              <label>
+                <span>Confirmar senha</span>
+                <input type="password" placeholder="Digite sua senha novamente" />
+              </label>
+            </div>
+
+            <div class="rules-grid">
+              <ul>
+                <li>M&iacute;nimo de 8 caracteres</li>
+                <li>Pelo menos 1 letra mai&uacute;scula</li>
+              </ul>
+
+              <ul>
+                <li>Pelo menos 1 n&uacute;mero</li>
+                <li>Pelo menos 1 caractere especial</li>
+              </ul>
+            </div>
+
+            <label class="terms-row flex items-center">
+              <input type="checkbox" />
+              <span class="custom-checkbox" aria-hidden="true"></span>
+              <span>
+                Li e aceito os <a href="#">Termos</a> e a
+                <a href="#">Pol&iacute;tica de Privacidade</a>
+              </span>
+            </label>
+
+            <div class="section-line"></div>
+
+            <div class="action-row flex items-center justify-end">
+              <button class="btn btn-secondary" type="button">Cancelar</button>
+              <button class="btn btn-primary" type="submit">Cadastrar</button>
+            </div>
+          </form>
+        </section>
+      </main>
+
+      <footer class="bottom-bar" aria-hidden="true"></footer>
+    </div>
+  </body>
+</html>
