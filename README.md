@@ -1,5 +1,7 @@
 # Projeto-Front-End-ADS-FIAP
-Atividade Fase 04 - Curso de Análise e Desenvolvimento de Sistemas FIAP 
+Atividade Fase 04 - Muito estilo sem sofrimento e Rede Social dos Desenvolvedores
+
+Curso de Análise e Desenvolvimento de Sistemas FIAP 
 
 Este trabalho apresenta o desenvolvimento da tela de cadastro do projeto FIAP Bank, criada inicialmente na atividade da Fase 02 utilizando o Figma. A tela foi recriada utilizando HTML, CSS e Tailwind CSS, seguindo a identidade visual definida no protótipo e aplicando conceitos de design responsivo para diferentes tamanhos de tela.
 
