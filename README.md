@@ -2,7 +2,7 @@
 
 Projeto desenvolvido durante o **1º semestre de Análise e Desenvolvimento de Sistemas (ADS)** na **FIAP**.
 
-O desafio consistiu em desenvolver duas telas para a plataforma **FIAP Bank**, transformando o protótipo criado no Figma em uma interface funcional utilizando tecnologias Front-End.
+O desafio consistiu em desenvolver duma tela para a plataforma **FIAP Bank**, transformando o protótipo criado no Figma em uma interface funcional utilizando tecnologias Front-End.
 
 ## 📋 Objetivo
 
@@ -11,9 +11,8 @@ Criar interfaces responsivas e fiéis ao protótipo, aplicando conceitos de HTML
 ## 🖥️ Telas desenvolvidas
 
 - Cadastro de usuário
-- Login / Acesso à plataforma
 
-> As telas foram desenvolvidas priorizando organização visual, responsividade e uma experiência simples para o usuário.
+> A tela foi desenvolvida priorizando organização visual, responsividade e uma experiência simples para o usuário.
 
 ## 🚀 Tecnologias utilizadas
 
@@ -35,11 +34,7 @@ Criar interfaces responsivas e fiéis ao protótipo, aplicando conceitos de HTML
 
 ### Tela de Cadastro
 
-> *(Adicionar uma imagem da tela aqui)*
-
-### Tela de Login
-
-> *(Adicionar uma imagem da tela aqui)*
+<img width="1083" height="467" alt="image" src="https://github.com/user-attachments/assets/7c943c99-cefb-4410-9804-0903ded334c8" />
 
 ## 📂 Estrutura do projeto
 
