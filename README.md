@@ -17,7 +17,7 @@ Criar interfaces responsivas e fiéis ao protótipo, aplicando conceitos de HTML
 ## 🚀 Tecnologias utilizadas
 
 - HTML5
-- CSS3
+- CSS
 - Tailwind CSS
 - Git
 - GitHub
